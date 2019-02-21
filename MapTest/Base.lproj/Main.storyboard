@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MapTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" zoomEnabled="NO" scrollEnabled="NO" rotateEnabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WsR-xg-t3e">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="393"/>
+                            </mapView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="b6l-0p-otE">
+                                <rect key="frame" x="183" y="433" width="97" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t0G-UC-5XN">
+                                <rect key="frame" x="94" y="438" width="68" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LUG-Vq-cIr">
+                                <rect key="frame" x="164" y="462" width="51" height="30"/>
+                                <state key="normal" title="Update"/>
+                                <connections>
+                                    <action selector="UpdateMap" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wp4-rW-85X"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="b6l-0p-otE" secondAttribute="bottom" constant="204" id="1NT-b0-eXJ"/>
+                            <constraint firstItem="t0G-UC-5XN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="94" id="1Zl-9l-pzV"/>
+                            <constraint firstItem="WsR-xg-t3e" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="2SL-2F-s8Z"/>
+                            <constraint firstItem="t0G-UC-5XN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="94" id="5nD-oq-eOR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="b6l-0p-otE" secondAttribute="bottom" constant="204" id="7DU-gd-zWc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LUG-Vq-cIr" secondAttribute="trailing" constant="160" id="8Zf-T9-vq4"/>
+                            <constraint firstItem="LUG-Vq-cIr" firstAttribute="top" secondItem="WsR-xg-t3e" secondAttribute="bottom" constant="69" id="9BB-ik-wmk"/>
+                            <constraint firstItem="t0G-UC-5XN" firstAttribute="top" secondItem="WsR-xg-t3e" secondAttribute="bottom" constant="45" id="DG7-bU-ntU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="WsR-xg-t3e" secondAttribute="bottom" constant="274" id="DbA-sB-Sp1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="b6l-0p-otE" secondAttribute="trailing" constant="95" id="GJo-c6-DW6"/>
+                            <constraint firstItem="t0G-UC-5XN" firstAttribute="top" secondItem="WsR-xg-t3e" secondAttribute="bottom" constant="45" id="IAK-Fh-cda"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="LUG-Vq-cIr" secondAttribute="bottom" constant="175" id="JAw-cx-6tk"/>
+                            <constraint firstItem="b6l-0p-otE" firstAttribute="leading" secondItem="t0G-UC-5XN" secondAttribute="trailing" constant="21" id="JGa-IX-sMg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LUG-Vq-cIr" secondAttribute="trailing" constant="160" id="JOd-G1-ZWy"/>
+                            <constraint firstItem="b6l-0p-otE" firstAttribute="leading" secondItem="t0G-UC-5XN" secondAttribute="trailing" constant="21" id="Oo7-sl-bMh"/>
+                            <constraint firstItem="WsR-xg-t3e" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="UQS-Ei-TfV"/>
+                            <constraint firstItem="LUG-Vq-cIr" firstAttribute="top" secondItem="WsR-xg-t3e" secondAttribute="bottom" constant="69" id="ZM3-Ze-3CT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="b6l-0p-otE" secondAttribute="trailing" constant="95" id="bFX-LM-Kzt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="t0G-UC-5XN" secondAttribute="bottom" constant="208" id="btV-Xm-6yY"/>
+                            <constraint firstItem="b6l-0p-otE" firstAttribute="top" secondItem="WsR-xg-t3e" secondAttribute="bottom" constant="40" id="eew-mU-GH9"/>
+                            <constraint firstItem="WsR-xg-t3e" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="fsl-rC-XYP"/>
+                            <constraint firstItem="LUG-Vq-cIr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="164" id="iDa-CR-ykx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="t0G-UC-5XN" secondAttribute="bottom" constant="208" id="ktk-Hj-Hou"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="LUG-Vq-cIr" secondAttribute="bottom" constant="175" id="wd6-VF-INA"/>
+                            <constraint firstItem="b6l-0p-otE" firstAttribute="top" secondItem="WsR-xg-t3e" secondAttribute="bottom" constant="40" id="wdy-qv-79S"/>
+                            <constraint firstItem="LUG-Vq-cIr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="164" id="yAC-5g-Cab"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="input" destination="b6l-0p-otE" id="79h-yD-2xF"/>
+                        <outlet property="mapView" destination="WsR-xg-t3e" id="BL4-lT-n8H"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="131.78410794602701"/>
+        </scene>
+    </scenes>
+</document>
