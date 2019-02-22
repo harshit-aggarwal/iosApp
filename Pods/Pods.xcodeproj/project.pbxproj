@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A2B206238B35E58D96756E7F5E0C744 /* ElementType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913A5FF0403C2E8C562B60DF3D7E78F3 /* ElementType.swift */; };
+		4A454F141E12540867CAC584B3DE7CEF /* MapKitGoogleStyler-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF854F8CFB5786FEAF07732D43AE038A /* MapKitGoogleStyler-dummy.m */; };
+		683E059E66A153834D1B2CB2B8E588B8 /* MapKitGoogleStyler-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29BAD2C561A30ED377D5A638B6EF63F6 /* MapKitGoogleStyler-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DAD59162EEE325DF5088C00D2766693 /* StylerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCB4943FE7C15C90318100B5B1A6FAF /* StylerType.swift */; };
+		983CDD13FEE941ECB432A7E75B1B2F95 /* Pods-MapTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C0C7E45D8437E6CBD8762647FBC3BCD /* Pods-MapTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AEE2D14EC93C2BFDA5852BEA20B9D34 /* FeatureType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B17B9C42B96367A2DB9CD654B7BD565 /* FeatureType.swift */; };
+		B5136DC757757E34239F26F556F5CE43 /* StyleElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D4F413A80EB2CA62C381D95BEA3586 /* StyleElement.swift */; };
+		B5AD7F77C03B5A93FC6BFEB62F420759 /* Pods-MapTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 134F96119DD5084083F938CA35806932 /* Pods-MapTest-dummy.m */; };
+		BC3A586509D50CD0B4A3C9AE889270A2 /* MapStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236D930E81BD85A9AB68F65A1CA39249 /* MapStyle.swift */; };
+		D966DBED6E45AAC0D120EC6490790016 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E45C3F133171175A39DEB563F3D3F6 /* Foundation.framework */; };
+		DB6C58FA6D26E220EC05842004582C2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E45C3F133171175A39DEB563F3D3F6 /* Foundation.framework */; };
+		EC63DC74651187B0A022195ECE5DF8CF /* MapKit+GoogleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A12AA54CC0B3520EAC48E01C5A522A /* MapKit+GoogleStyle.swift */; };
+		EE781EDF0AE1656F607793B4BDC4C8AB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885EB7C245374CC653109DCDFEC8F8BA /* MapKit.framework */; };
+		F2109BD8B96644D162C694B72FFAE1BA /* GoogleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3891D5915BBA6B0A01CE258258871D38 /* GoogleStyle.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92E24BC26B9F34029EDD12AFF5493B1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D3E7D49DA99F39B81E67F1A81882815;
+			remoteInfo = MapKitGoogleStyler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11E28FC5C8745400CF087DA0FFAEB560 /* Pods-MapTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MapTest-Info.plist"; sourceTree = "<group>"; };
+		134F96119DD5084083F938CA35806932 /* Pods-MapTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MapTest-dummy.m"; sourceTree = "<group>"; };
+		1FA6AF57B2A43595C9E6E5AE60DBEE0F /* MapKitGoogleStyler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MapKitGoogleStyler.framework; path = MapKitGoogleStyler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22A12AA54CC0B3520EAC48E01C5A522A /* MapKit+GoogleStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MapKit+GoogleStyle.swift"; path = "MapKitGoogleStyler/Classes/MapKit+GoogleStyle.swift"; sourceTree = "<group>"; };
+		236D930E81BD85A9AB68F65A1CA39249 /* MapStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MapStyle.swift; path = MapKitGoogleStyler/Classes/MapStyle.swift; sourceTree = "<group>"; };
+		25E45C3F133171175A39DEB563F3D3F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		29BAD2C561A30ED377D5A638B6EF63F6 /* MapKitGoogleStyler-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MapKitGoogleStyler-umbrella.h"; sourceTree = "<group>"; };
+		2B17B9C42B96367A2DB9CD654B7BD565 /* FeatureType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FeatureType.swift; path = MapKitGoogleStyler/Classes/FeatureType.swift; sourceTree = "<group>"; };
+		3891D5915BBA6B0A01CE258258871D38 /* GoogleStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GoogleStyle.swift; path = MapKitGoogleStyler/Classes/GoogleStyle.swift; sourceTree = "<group>"; };
+		42E8B5C9DB8460F9FFC0338AC41248A6 /* MapKitGoogleStyler.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MapKitGoogleStyler.xcconfig; sourceTree = "<group>"; };
+		4C0C7E45D8437E6CBD8762647FBC3BCD /* Pods-MapTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MapTest-umbrella.h"; sourceTree = "<group>"; };
+		6C286D2C11E0A0564D7AA8E92B810D84 /* Pods_MapTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MapTest.framework; path = "Pods-MapTest.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C72698E2C9D323CEA91B6AA1E90C24C /* Pods-MapTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapTest-frameworks.sh"; sourceTree = "<group>"; };
+		7FEB8A8B6BD6DC7B9C5E67802E4E8103 /* Pods-MapTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapTest.release.xcconfig"; sourceTree = "<group>"; };
+		885EB7C245374CC653109DCDFEC8F8BA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		913A5FF0403C2E8C562B60DF3D7E78F3 /* ElementType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ElementType.swift; path = MapKitGoogleStyler/Classes/ElementType.swift; sourceTree = "<group>"; };
+		92D4F413A80EB2CA62C381D95BEA3586 /* StyleElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StyleElement.swift; path = MapKitGoogleStyler/Classes/StyleElement.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C42ED219CD7222A51DC11F80E2CE84E3 /* MapKitGoogleStyler-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MapKitGoogleStyler-Info.plist"; sourceTree = "<group>"; };
+		C9C7DDFCAB988245185741EE0F1C081B /* Pods-MapTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MapTest.modulemap"; sourceTree = "<group>"; };
+		D384917C2E34E6C45945DE8B88D7D757 /* Pods-MapTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MapTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		D495A4DA78200B40CBB047DE143B6650 /* MapKitGoogleStyler-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MapKitGoogleStyler-prefix.pch"; sourceTree = "<group>"; };
+		DF854F8CFB5786FEAF07732D43AE038A /* MapKitGoogleStyler-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MapKitGoogleStyler-dummy.m"; sourceTree = "<group>"; };
+		EDCB4943FE7C15C90318100B5B1A6FAF /* StylerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StylerType.swift; path = MapKitGoogleStyler/Classes/StylerType.swift; sourceTree = "<group>"; };
+		EE36032248B8CEF93D29E1D2A66BE2F5 /* Pods-MapTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MapTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F3256A505A40DEBFE6C1A37126AC3818 /* MapKitGoogleStyler.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MapKitGoogleStyler.modulemap; sourceTree = "<group>"; };
+		FFA0BE25687177CA7CD987DCA3B64125 /* Pods-MapTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapTest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BA5F1601CE124341E689944F92A12F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6C58FA6D26E220EC05842004582C2E /* Foundation.framework in Frameworks */,
+				EE781EDF0AE1656F607793B4BDC4C8AB /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B70A2BAFECE8CCBC0C03695849600B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D966DBED6E45AAC0D120EC6490790016 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1335BBCC5AB5AB56DF50B8B3ED21DC2F /* MapKitGoogleStyler */ = {
+			isa = PBXGroup;
+			children = (
+				913A5FF0403C2E8C562B60DF3D7E78F3 /* ElementType.swift */,
+				2B17B9C42B96367A2DB9CD654B7BD565 /* FeatureType.swift */,
+				3891D5915BBA6B0A01CE258258871D38 /* GoogleStyle.swift */,
+				22A12AA54CC0B3520EAC48E01C5A522A /* MapKit+GoogleStyle.swift */,
+				236D930E81BD85A9AB68F65A1CA39249 /* MapStyle.swift */,
+				92D4F413A80EB2CA62C381D95BEA3586 /* StyleElement.swift */,
+				EDCB4943FE7C15C90318100B5B1A6FAF /* StylerType.swift */,
+				69676A0D5D2C393863220C867D9F5E78 /* Support Files */,
+			);
+			name = MapKitGoogleStyler;
+			path = MapKitGoogleStyler;
+			sourceTree = "<group>";
+		};
+		142493990D016A8A75DDA5D0D051DE51 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8125E33229C1F135EC4988719F4DAA7 /* Pods-MapTest */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0BE4C2BB3F34FEF5CE9CD9DC7C21D6E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		214130D41565E94C1CF0ABA5F4E0C09A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1335BBCC5AB5AB56DF50B8B3ED21DC2F /* MapKitGoogleStyler */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		69676A0D5D2C393863220C867D9F5E78 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3256A505A40DEBFE6C1A37126AC3818 /* MapKitGoogleStyler.modulemap */,
+				42E8B5C9DB8460F9FFC0338AC41248A6 /* MapKitGoogleStyler.xcconfig */,
+				DF854F8CFB5786FEAF07732D43AE038A /* MapKitGoogleStyler-dummy.m */,
+				C42ED219CD7222A51DC11F80E2CE84E3 /* MapKitGoogleStyler-Info.plist */,
+				D495A4DA78200B40CBB047DE143B6650 /* MapKitGoogleStyler-prefix.pch */,
+				29BAD2C561A30ED377D5A638B6EF63F6 /* MapKitGoogleStyler-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MapKitGoogleStyler";
+			sourceTree = "<group>";
+		};
+		74D2729E31A1EDEF892AE899324EBA4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FA6AF57B2A43595C9E6E5AE60DBEE0F /* MapKitGoogleStyler.framework */,
+				6C286D2C11E0A0564D7AA8E92B810D84 /* Pods_MapTest.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8125E33229C1F135EC4988719F4DAA7 /* Pods-MapTest */ = {
+			isa = PBXGroup;
+			children = (
+				C9C7DDFCAB988245185741EE0F1C081B /* Pods-MapTest.modulemap */,
+				EE36032248B8CEF93D29E1D2A66BE2F5 /* Pods-MapTest-acknowledgements.markdown */,
+				D384917C2E34E6C45945DE8B88D7D757 /* Pods-MapTest-acknowledgements.plist */,
+				134F96119DD5084083F938CA35806932 /* Pods-MapTest-dummy.m */,
+				7C72698E2C9D323CEA91B6AA1E90C24C /* Pods-MapTest-frameworks.sh */,
+				11E28FC5C8745400CF087DA0FFAEB560 /* Pods-MapTest-Info.plist */,
+				4C0C7E45D8437E6CBD8762647FBC3BCD /* Pods-MapTest-umbrella.h */,
+				FFA0BE25687177CA7CD987DCA3B64125 /* Pods-MapTest.debug.xcconfig */,
+				7FEB8A8B6BD6DC7B9C5E67802E4E8103 /* Pods-MapTest.release.xcconfig */,
+			);
+			name = "Pods-MapTest";
+			path = "Target Support Files/Pods-MapTest";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				214130D41565E94C1CF0ABA5F4E0C09A /* Pods */,
+				74D2729E31A1EDEF892AE899324EBA4A /* Products */,
+				142493990D016A8A75DDA5D0D051DE51 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E0BE4C2BB3F34FEF5CE9CD9DC7C21D6E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				25E45C3F133171175A39DEB563F3D3F6 /* Foundation.framework */,
+				885EB7C245374CC653109DCDFEC8F8BA /* MapKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3AD5438A01BDF657F683E67D2B6284D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				683E059E66A153834D1B2CB2B8E588B8 /* MapKitGoogleStyler-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB42C313DC3981D6CFCE2EE51732528D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983CDD13FEE941ECB432A7E75B1B2F95 /* Pods-MapTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2D3E7D49DA99F39B81E67F1A81882815 /* MapKitGoogleStyler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F799AF0F488B9AD1C791532732F9FE9A /* Build configuration list for PBXNativeTarget "MapKitGoogleStyler" */;
+			buildPhases = (
+				3AD5438A01BDF657F683E67D2B6284D1 /* Headers */,
+				9F25C979A544797C842867069850EF89 /* Sources */,
+				1BA5F1601CE124341E689944F92A12F8 /* Frameworks */,
+				CE0F46195FBB300634B310F6BD8EA2B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapKitGoogleStyler;
+			productName = MapKitGoogleStyler;
+			productReference = 1FA6AF57B2A43595C9E6E5AE60DBEE0F /* MapKitGoogleStyler.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		89F773D103B126F347A666A46772C828 /* Pods-MapTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 225C293A8E88E8AA20800FB2D0D06663 /* Build configuration list for PBXNativeTarget "Pods-MapTest" */;
+			buildPhases = (
+				BB42C313DC3981D6CFCE2EE51732528D /* Headers */,
+				36B968369F1713D8C0DEE6EC7A9924D2 /* Sources */,
+				8B70A2BAFECE8CCBC0C03695849600B1 /* Frameworks */,
+				C4A6DD5F2D259D171C8C444F35BFCE6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77E3A3EC2382EC05947B37449EE5C38B /* PBXTargetDependency */,
+			);
+			name = "Pods-MapTest";
+			productName = "Pods-MapTest";
+			productReference = 6C286D2C11E0A0564D7AA8E92B810D84 /* Pods_MapTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 74D2729E31A1EDEF892AE899324EBA4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D3E7D49DA99F39B81E67F1A81882815 /* MapKitGoogleStyler */,
+				89F773D103B126F347A666A46772C828 /* Pods-MapTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4A6DD5F2D259D171C8C444F35BFCE6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE0F46195FBB300634B310F6BD8EA2B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36B968369F1713D8C0DEE6EC7A9924D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5AD7F77C03B5A93FC6BFEB62F420759 /* Pods-MapTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F25C979A544797C842867069850EF89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A2B206238B35E58D96756E7F5E0C744 /* ElementType.swift in Sources */,
+				9AEE2D14EC93C2BFDA5852BEA20B9D34 /* FeatureType.swift in Sources */,
+				F2109BD8B96644D162C694B72FFAE1BA /* GoogleStyle.swift in Sources */,
+				EC63DC74651187B0A022195ECE5DF8CF /* MapKit+GoogleStyle.swift in Sources */,
+				4A454F141E12540867CAC584B3DE7CEF /* MapKitGoogleStyler-dummy.m in Sources */,
+				BC3A586509D50CD0B4A3C9AE889270A2 /* MapStyle.swift in Sources */,
+				B5136DC757757E34239F26F556F5CE43 /* StyleElement.swift in Sources */,
+				6DAD59162EEE325DF5088C00D2766693 /* StylerType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77E3A3EC2382EC05947B37449EE5C38B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MapKitGoogleStyler;
+			target = 2D3E7D49DA99F39B81E67F1A81882815 /* MapKitGoogleStyler */;
+			targetProxy = 92E24BC26B9F34029EDD12AFF5493B1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		36E483FE0805FB052F1DDA0BD90F4BCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFA0BE25687177CA7CD987DCA3B64125 /* Pods-MapTest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MapTest/Pods-MapTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MapTest/Pods-MapTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		537EF8DFA13DE35C811523D48E0075DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42E8B5C9DB8460F9FFC0338AC41248A6 /* MapKitGoogleStyler.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MapKitGoogleStyler/MapKitGoogleStyler-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MapKitGoogleStyler/MapKitGoogleStyler-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MapKitGoogleStyler/MapKitGoogleStyler.modulemap";
+				PRODUCT_MODULE_NAME = MapKitGoogleStyler;
+				PRODUCT_NAME = MapKitGoogleStyler;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5504C82E13C4F7D287159DC2C84599C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FEB8A8B6BD6DC7B9C5E67802E4E8103 /* Pods-MapTest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MapTest/Pods-MapTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MapTest/Pods-MapTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A105C1752A0A49B30ED621B71E226CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C1391485F05B41BD35738A433056B7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C7AEDDC3532927CA5EECFB1CC4A2B87F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42E8B5C9DB8460F9FFC0338AC41248A6 /* MapKitGoogleStyler.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MapKitGoogleStyler/MapKitGoogleStyler-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MapKitGoogleStyler/MapKitGoogleStyler-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MapKitGoogleStyler/MapKitGoogleStyler.modulemap";
+				PRODUCT_MODULE_NAME = MapKitGoogleStyler;
+				PRODUCT_NAME = MapKitGoogleStyler;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		225C293A8E88E8AA20800FB2D0D06663 /* Build configuration list for PBXNativeTarget "Pods-MapTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36E483FE0805FB052F1DDA0BD90F4BCF /* Debug */,
+				5504C82E13C4F7D287159DC2C84599C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1391485F05B41BD35738A433056B7FA /* Debug */,
+				A105C1752A0A49B30ED621B71E226CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F799AF0F488B9AD1C791532732F9FE9A /* Build configuration list for PBXNativeTarget "MapKitGoogleStyler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				537EF8DFA13DE35C811523D48E0075DD /* Debug */,
+				C7AEDDC3532927CA5EECFB1CC4A2B87F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

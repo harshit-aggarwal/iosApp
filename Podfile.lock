@@ -1,0 +1,16 @@
+PODS:
+  - MapKitGoogleStyler (0.1.1)
+
+DEPENDENCIES:
+  - MapKitGoogleStyler
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MapKitGoogleStyler
+
+SPEC CHECKSUMS:
+  MapKitGoogleStyler: 8efdceb664fc1748a62a9e3b50a34b67a34247bc
+
+PODFILE CHECKSUM: f913bde7c5c10744db45e4c5c9c62509ee1e0449
+
+COCOAPODS: 1.6.1
